@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mccabe           = "*"
+pep8-naming      = "*"
+flake8           = "*"
+pydocstyle       = "*"
+mypy             = "*"
+typeshed         = "*"
+yapf             = "*"
+pytest           = "*"
+pytest-cov       = "*"
+
+[packages]
+nmf = {editable = true,path = "."}
+
+[requires]
+python_version    = "3.6"
